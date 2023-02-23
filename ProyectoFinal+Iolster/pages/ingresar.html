@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ingresar, cuenta, sesión">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Ingresar</title>
+    <script src="https://kit.fontawesome.com/d6436d0926.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/assets/fotos/Untitled-3.ico">
+</head>
+<body>
+    <header>
+    <img href="./index.html" class="logo" src="../assets/fotos/logoccf.jpg" alt="logo"> 
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navLink" href="../index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="navLink" aria-current="page" href="./comprar.html">Comprar</a>
+              <a class="navLink active" href="./ingresar.html">Ingresar</a>
+              <a class="navLink" href="./sobreNosotros.html">Sobre Nosotros</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="containerPrincipal">
+<div class="formGroup">
+  <input id="usuario" type="text" class="formControl" name="username" placeholder="Usuario">
+  <input id="contrasena" type="password" class="formControl" name="password" placeholder="Contraseña">
+  <br>
+  <button id="boton" class="botonIngresar" onclick="login()"> Iniciar sesión </button>
+</div>
+    </div>
+
+    <footer class="footerIngresar">
+        <p>También encontranos en:</p>
+        <div class="icons">
+            <a href="https://twitter.com/StarbucksAr?s=20&t=nXTw_Jdk6V3lXgoNRhklRg" target="_blank" class="iconsA fa-brands"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/zavaliacafe/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://youtu.be/KUEIayDKzOk" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/StarbucksArgentina/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+</div>
+    </footer>
+<script defer src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+[{
+"id": "1", 
+"titulo": "Café de Etiopía",
+"precio": 2000, 
+"origen": "Origen: Etiopía",
+"tostado": "Tostado: Medio",
+"imagen": "../assets/fotos/cafenaranja.webp",
+"categoria": {
+    "nombre": "Cafe",
+    "id": "cafes"
+}
+},
+{
+"id":"2", 
+"titulo": "Café de Colombia",
+"precio": 1700, 
+"origen": "Origen: Colombia",
+"tostado": "Tostado: Suave",
+"imagen": "../assets/fotos/fotocafe.webp",
+"categoria": {
+    "nombre": "Cafe",
+    "id": "cafes"
+}
+},
+{
+"id":"3", 
+"titulo": "Café de Nicaragua",
+"precio": 1200, 
+"origen": "Origen: Nigaragua",
+"tostado": "Tostado: Intenso",
+"imagen": "../assets/fotos/winter.webp",
+"categoria": {
+    "nombre": "Cafe",
+    "id": "cafes"
+}
+},
+{
+    "id": "4", 
+    "titulo": "Crisp Quinoa Sesame ",
+    "precio": 1000, 
+    "origen": "Origen: Etiopía",
+    "tostado": "Tostado: Medio",
+    "imagen": "../assets/fotos/chocolate1.jpg",
+    "categoria": {
+        "nombre": "Chocolate",
+        "id": "chocolates"
+    }
+},
+{
+    "id": "5", 
+    "titulo": "Cayenne Veracruz Orange",
+    "precio": 800, 
+    "origen": "Origen: Etiopía",
+    "tostado": "Tostado: Medio",
+    "imagen": "../assets/fotos/chocolate2.jpg",
+    "categoria": {
+        "nombre": "Chocolate",
+        "id": "chocolates"
+    }
+    },
+{
+        "id": "6", 
+        "titulo": "Single Varietal Contamana Cacao",
+        "precio": 1300, 
+        "origen": "Origen: Etiopía",
+        "tostado": "Tostado: Medio",
+        "imagen": "../assets/fotos/chocolate3.jpg",
+        "categoria": {
+            "nombre": "Chocolate",
+            "id": "chocolates"
+        }
+}
+]

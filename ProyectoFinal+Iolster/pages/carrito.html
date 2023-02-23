@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link de estilos bootstraps y toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script defer src="../js/carrito.js"></script>
+    <script src="https://kit.fontawesome.com/d6436d0926.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="icon" href="/assets/fotos/Untitled-3.ico">
+
+    <title>Carrito</title>
+</head>
+
+<body>
+    <div class="contenedor-gral">
+
+        <header>
+            <img href="../index.html" class="logo" src="../assets/fotos/logoccf.jpg" alt="logo"> 
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navLink" href="../index.html">Home</a>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="navLink active" aria-current="page" href="./comprar.html">Comprar</a>
+                      <a class="navLink" href="./ingresar.html">Ingresar</a>
+                      <a class="navLink" href="./sobreNosotros.html">Sobre Nosotros</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <h2 class="titulo-ppal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio"> Tu carrito está vacío.</p>
+
+                <div id="carrito-productos" class="carrito-productos ocultar">
+                    <!-- acá los productos se agregan mediante JS -->
+
+                </div>
+                <div id="carrito-acciones" class="carrito-acciones ocultar">
+                    <div class="carrito-izq">
+                        <div class="carrito-acciones-vaciar">
+                            <button id="boton-vaciar-carrito" class="boton-carrito-vaciar">Vaciar Carrito</button>
+                        </div>
+                    </div>
+                    <div class="carrito-der">
+                        <div class="carrito-acciones-total">
+                            <p>Total: </p>
+                            <p id="total">$3000</p>
+                        </div>
+                        <button id="boton-comprar-carrito" class="carrito-acciones-comprar">Comprar ahora</button>
+                    </div>
+                </div>
+                <p id="carrito-comprado" class="carrito-comprado ocultar">Muchas gracias por tu compra!</p>
+            </div>
+        </main>
+    </div>
+
+<!-- enlaces de JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+
+
+
+<!-- Footer -->
+<footer>
+    <p>También encontranos en:</p>
+    <div class="icons">
+        <a href="https://twitter.com/StarbucksAr?s=20&t=nXTw_Jdk6V3lXgoNRhklRg" target="_blank" class="iconsA fa-brands"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/zavaliacafe/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://youtu.be/KUEIayDKzOk" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.facebook.com/StarbucksArgentina/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
